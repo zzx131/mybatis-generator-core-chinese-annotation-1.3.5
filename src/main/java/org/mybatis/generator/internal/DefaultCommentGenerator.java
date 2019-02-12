@@ -78,7 +78,7 @@ public class DefaultCommentGenerator implements CommentGenerator {
         suppressAllComments = false;
         addRemarkComments = false;
         addMethodFinal = true;
-        author = "orange1438 code generator";
+        author = "zzx code generator";
     }
 
     /* (non-Javadoc)
