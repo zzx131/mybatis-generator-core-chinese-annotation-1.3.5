@@ -3,3 +3,4 @@
 *.iml
 .svn/**
 **/log/**
+/target/
