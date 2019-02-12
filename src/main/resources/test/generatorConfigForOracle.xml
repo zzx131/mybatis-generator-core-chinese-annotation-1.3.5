@@ -11,7 +11,7 @@ http://mbg.cndocs.tk/
 <generatorConfiguration>
 
     <!-- 指定数据连接驱动jar地址 -->
-    <classPathEntry location="F:\Documents\IDEA\repository\com\oracle\ojdbc14\10.2.0.4.0\ojdbc14-10.2.0.4.0.jar"/>
+    <classPathEntry location="E:\JavaDeveloper\MavenRepository\ojdbc\ojdbc\11g\ojdbc-11g.jar"/>
 
     <!-- 一个数据库一个context -->
     <context id="testTables" targetRuntime="MyBatis3">
@@ -54,9 +54,9 @@ http://mbg.cndocs.tk/
 
         <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
         <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"
-                        connectionURL="jdbc:oracle:thin:@11.11.11.38:1521:orcl"
-                        userId="wifi_city"
-                        password="city">
+                        connectionURL="jdbc:oracle:thin:@192.168.1.82:1521/pdborcl"
+                        userId="ebonapp"
+                        password="ebonapp">
         </jdbcConnection>
 
         <!-- 类型转换 -->
@@ -99,7 +99,7 @@ http://mbg.cndocs.tk/
 
         <!-- 指定生成的数据库表 -->
         <!-- domainObjectName：指定生成的实体类的文件名 -->
-        <table tableName="ESB_LOG_CONFIGURATION" domainObjectName="EsbLogConfigurationEntity"/>
+        <table tableName="SYS_USER" domainObjectName="SysUser"/>
         <!--<table tableName="APP_CRASH_LOG" domainObjectName="AppCrashLogEntity"/>-->
         <!--<table tableName="APP_METHOD_TIME_LOG_201610" domainObjectName="AppMethETHODTimeLogEntity"/>-->
         <!--<table tableName="APP_PAGE_RENDER_LOG_201610" domainObjectName="AppPageRenderLogEntity"/>-->
