@@ -197,8 +197,7 @@ public class MapperPlugin extends PluginAdapter {
         javaElement.addJavaDocLine(" * E:Example");
         javaElement.addJavaDocLine(" * ID:主键的变量类型");
         javaElement.addJavaDocLine(" *");
-        javaElement.addJavaDocLine(" * @author orange1438");
-        javaElement.addJavaDocLine(" *         github: https://github.com/orange1438");
+        javaElement.addJavaDocLine(" * @author zzx");
         javaElement.addJavaDocLine(" *         date: " + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
         javaElement.addJavaDocLine(" */");
     }
